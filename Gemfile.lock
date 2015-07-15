@@ -1,0 +1,61 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    better_errors (2.1.1)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+      rack (>= 0.9.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    coderay (1.1.0)
+    cuba (3.4.0)
+      rack
+    debug_inspector (0.0.2)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
+    erubis (2.7.0)
+    ffi (1.9.10)
+    foreman (0.78.0)
+      thor (~> 0.19.1)
+    hitimes (1.2.2)
+    listen (2.10.1)
+      celluloid (~> 0.16.0)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    minitest (5.7.0)
+    mocoso (1.2.1)
+    puma (2.12.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (10.4.2)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rerun (0.10.0)
+      listen (~> 2.7, >= 2.7.3)
+    thor (0.19.1)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  better_errors
+  binding_of_caller
+  cuba (~> 3.1)
+  dotenv (~> 0.10)
+  foreman
+  minitest
+  mocoso
+  puma (~> 2.8)
+  rack-protection (~> 1.5)
+  rack-test
+  rake (~> 10.1)
+  rerun
